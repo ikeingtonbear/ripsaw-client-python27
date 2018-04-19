@@ -42,7 +42,7 @@ for lvl in backToTheAbacusTest.solutions:
 		exit("submitAnswer"+str(lvl))
 game.disconnect()
 
-print "Testing trueBOrNotTrueB"
+print("Testing trueBOrNotTrueB")
 game.setServerPort(8004)
 game.connect()
 game.password('bool3an_L0gic')
@@ -64,7 +64,7 @@ for lvl in trueBOrNotTrueBTest.solutions:
 		exit("submitAnswer"+str(lvl))
 game.disconnect()
 
-print "Testing decisionsDecisions"
+print("Testing decisionsDecisions")
 game.setServerPort(8005)
 game.connect()
 game.password('if3ls33ndif')
@@ -86,7 +86,7 @@ for lvl in decisionsDecisionsTest.solutions:
 		exit("submitAnswer"+str(lvl))
 game.disconnect()
 
-print "Testing stringTheory"
+print("Testing stringTheory")
 game.setServerPort(8006)
 game.connect()
 game.password('bran3sandDbran3s')
@@ -108,7 +108,7 @@ for lvl in stringTheoryTest.solutions:
 		exit("submitAnswer"+str(lvl))
 game.disconnect()
 
-print "Testing listsOnListsOnLists"
+print("Testing listsOnListsOnLists")
 game.setServerPort(8007)
 game.connect()
 game.password('Ind!c3sRK3y')
@@ -130,7 +130,7 @@ for lvl in listsOnListsOnListsTest.solutions:
 		exit("submitAnswer"+str(lvl))
 game.disconnect()
 
-print "Testing secondIteration"
+print("Testing secondIteration")
 game.setServerPort(8008)
 game.connect()
 game.password('It3r2t@k3Tw0')
@@ -152,7 +152,7 @@ for lvl in secondIterationTest.solutions:
 		exit("submitAnswer"+str(lvl))
 game.disconnect()
 
-print "Testing justABitLoopy"
+print("Testing justABitLoopy")
 game.setServerPort(8009)
 game.connect()
 game.password('T0ucan$am')
@@ -174,7 +174,7 @@ for lvl in justABitLoopyTest.solutions:
 		exit("submitAnswer"+str(lvl))
 game.disconnect()
 
-print "Testing merriamWebstersUrban"
+print("Testing merriamWebstersUrban")
 game.setServerPort(8010)
 game.connect()
 game.password('Urb@nD0tC0m')
@@ -196,7 +196,7 @@ for lvl in merriamWebstersUrbanTest.solutions:
 		exit("submitAnswer"+str(lvl))
 game.disconnect()
 
-print "Testing hashtagCrypto"
+print("Testing hashtagCrypto")
 game.setServerPort(8011)
 game.connect()
 game.password('3ni9maM@ch!n3')
@@ -217,4 +217,3 @@ for lvl in hashtagCryptoTest.solutions:
 	except:
 		exit("submitAnswer"+str(lvl))
 game.disconnect()
-	
